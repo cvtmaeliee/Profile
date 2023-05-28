@@ -1,0 +1,128 @@
+/* Colors and fonts */
+
+body {
+	background-color: #BDA892;
+	color: rgb(30, 30, 30);
+	font-family: 'Wix Madefor Display', sans-serif;
+	font-weight: 100;
+
+}
+
+
+h1, h2 {
+	color: #3B3834;
+}
+
+h1 {
+	font-family: 'Yeseva One', cursive;
+	letter-spacing: 3px;
+	font-size: 40px;
+
+}
+
+h2 {
+	font-family: 'League Spartan', sans-serif;
+	font-size: 30px;
+
+}
+
+a {
+	text-decoration: none;
+	color : #FFFFFF;
+	font-weight: 700;
+	transition: color 0.3s ease;
+}
+
+a:hover {
+	color : #3B3834;
+}
+
+#profilepic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 10px;
+  border-color: #3B3834;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.6);
+}
+
+/* Custom design with class */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+
+	.container{
+		width: 700px;
+	}
+}
+
+@media (max-width: 720px) {
+
+	.container{
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+
+	.container{
+		width: 300px;
+	}
+}
+
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+#profilepic {
+  width: 100px;
+  border-radius: 50%;
+  border: 5px #3B3834;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.6);
+}
+
+.btn-blue {
+	background-color: #3B3834;
+	padding: 15px 20px;
+	border-radius: 4px;
+	transition: color 0.3s ease;
+}
+
+.btn-blue:hover {
+	background-color: #BDA892;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: #3B3834;
+}
+
+.list-inline i:hover {
+	color: #BDA892;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
